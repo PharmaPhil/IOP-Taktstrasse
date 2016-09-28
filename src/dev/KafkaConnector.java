@@ -11,7 +11,7 @@ public class KafkaConnector {
    public static void main(String[] args) throws Exception { 
 	   
 	  BasicConfigurator.configure();
-      String topic = "dhbw";
+      String topic = "dhbw2";
       String group = "my-group";
       Properties props = new Properties();
       props.put("bootstrap.servers", "localhost:9092");
